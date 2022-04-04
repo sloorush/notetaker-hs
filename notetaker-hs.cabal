@@ -1,5 +1,5 @@
 cabal-version:      2.4
-name:               notetaker-in-hs
+name:               notetaker-hs
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
@@ -33,7 +33,7 @@ library
     hs-source-dirs:   src
     default-language: Haskell2010
 
-executable notetaker-in-hs
+executable notetaker-hs
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
@@ -49,7 +49,7 @@ executable notetaker-in-hs
         mtl,
         lucid,
         Spock-lucid,
-        notetaker-in-hs
+        notetaker-hs
 
     hs-source-dirs:   app
     default-language: Haskell2010
